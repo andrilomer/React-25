@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "question": "What is React?",
+      "answer": "React is a JavaScript library for building user interfaces, primarily for single-page applications where you need a fast, interactive user experience."
+    },
+    {
+      "id": 2,
+      "question": "What is JSX?",
+      "answer": "JSX stands for JavaScript XML. It allows you to write HTML elements and components in a JavaScript file, making it easier to create and visualize your UI structure."
+    },
+    {
+      "id": 3,
+      "question": "What is a React component?",
+      "answer": "A React component is a reusable piece of UI that can be composed and nested to build complex user interfaces. Components can be class-based or functional."
+    },
+    {
+      "id": 4,
+      "question": "What is state in React?",
+      "answer": "State is a built-in object that stores the property values that belong to a component. It allows you to manage data and react to user interactions."
+    }
+  ]
+}
