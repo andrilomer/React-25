@@ -1,4 +1,5 @@
-import StarRating from "./components/StarRating"
+import ImageSlider from "./components/ImageSlider"
+
 
 
 
@@ -11,8 +12,8 @@ function App() {
     <>
     {/* <Accordion/> */}
     {/* <RandomColor/> */}
-    <StarRating noOfStars={10}/>
-
+    {/* <StarRating noOfStars={10}/> */}
+    <ImageSlider url={"https://picsum.photos/v2/list"} limit={10} page={1}/>
     </>
   )
 }
