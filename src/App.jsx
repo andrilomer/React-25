@@ -1,4 +1,5 @@
-import RandomColor from "./components/RandomColor"
+import StarRating from "./components/StarRating"
+
 
 
 
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
     {/* <Accordion/> */}
-    <RandomColor/>
+    {/* <RandomColor/> */}
+    <StarRating noOfStars={10}/>
 
     </>
   )

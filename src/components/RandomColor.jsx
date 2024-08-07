@@ -52,11 +52,11 @@ const RandomColor = () => {
   return (
     <div style={{
       background:color
-    }} className="h-screen  ">
+    }} className="h-screen ">
       <div className="flex justify-center font-bold ">
-      <button onClick={()=>setTypeOfColor('hex')} className="bg-white p-2 m-1  rounded-md">Create HEX Color</button>
-      <button onClick={()=>setTypeOfColor('rgb')} className="bg-white p-2 m-1  rounded-md">Create RGB Color</button>
-      <button onClick={typeOfColor==='hex'? handleCreateRandomHexColor: handleCreateRandomRgbColor}  className="bg-white p-2 m-1  rounded-md">Generate Random Color</button>
+      <button onClick={()=>setTypeOfColor('hex')} className="bg-white p-2 m-1  rounded-md hover:bg-stone-300">Create HEX Color</button>
+      <button onClick={()=>setTypeOfColor('rgb')} className="bg-white p-2 m-1  rounded-md hover:bg-stone-300">Create RGB Color</button>
+      <button onClick={typeOfColor==='hex'? handleCreateRandomHexColor: handleCreateRandomRgbColor}  className="bg-white p-2 m-1  rounded-md hover:bg-stone-300">Generate Random Color</button>
       </div>
       <div className="flex flex-col font-bold text-3xl text-white justify-center items-center h-[75%]">
         <h3>{typeOfColor==='rgb'? 'RGB Color': 'HEX Color' } </h3>
